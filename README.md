@@ -1,6 +1,6 @@
 # Portland
 <div style='text-align:center'>
-<img src='http://sverring.ru/minisrty-platform/img/portland.png'>
+<img src='http://sverring.ru/minisrty-platform/img/portland-p.png'>
 </div>
 
 # Synopsis
