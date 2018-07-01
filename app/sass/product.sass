@@ -1,0 +1,200 @@
+@import "fonts"
+
+$basic: #343e5c
+
+/*color-classes selection*/
+
+.red
+    color: red
+.non-red
+    color: green !important
+    
+.active
+    i
+        border: inset 2px black
+        border-radius: 50px
+        background-color: black
+        font-size: 1.25rem
+    fa-circle:before
+        position: relative
+        left: -0.3px
+
+/*product-name slider */
+.product-name-slider
+    margin-top: 30px
+    .img-block
+        width: 100%
+        height: 400px
+        background: #ddd
+        border: 2px solid #eee
+
+    .img-block2
+        width: 100%
+        height: 80px
+        background: #ddd
+        border: 2px solid #eee
+
+    .product-name-pic-1
+        background: url(../img/1.jpg) !important
+        background-size: cover !important
+        background-repeat: no-repeat !important
+        background-position: center !important
+
+    .product-name-pic-2
+        background: url(../img/2.jpg) !important
+        background-size: cover !important
+        background-repeat: no-repeat !important
+        background-position: center !important 
+
+    .product-name-pic-3
+        background: url(../img/3.jpg) !important
+        background-size: cover !important
+        background-repeat: no-repeat !important
+        background-position: center !important
+    
+    .product-name-pic-4
+        background: url(../img/4.jpg) !important
+        background-size: cover !important
+        background-repeat: no-repeat !important
+        background-position: center !important
+    
+    .slider-nav
+        button
+            display: none !important
+
+.img-block-item
+    margin: 5px !important
+           
+.item-title
+    font-family: "Corbert-Regular"
+    margin-top: 20px
+    font-size: 2.5rem
+    font-weight: 600
+    margin-bottom: 5px
+.item-article
+    margin-bottom: 5px
+.item-anchor
+    margin-bottom: 5px
+    color: #a6525c
+    transition: .3s
+.item-anchor:hover
+    text-decoration: none
+    color: #f69e7d 
+    transition: .3s
+    
+.product-name-info
+    margin-top: 10px
+    color: $basic
+    background: #eee
+    padding: 20px
+    border-radius: 5px
+    box-shadow: 5px 5px 10px rgba(52, 62, 92, 0.4)
+    .item-select-color
+        ul
+            padding-left: 0
+            list-style-type: none
+            margin-bottom: 0
+            margin-top: 15px
+            margin-left: 0px
+            li
+                display: inline-block
+            .item-select-color-red
+              
+                i
+                    color: red
+                    input
+                        margin-left: -18px
+                        visibility: hidden
+                i:hover
+                    opacity: .5
+            .item-select-color-pink
+                i
+                    color: pink
+                    input
+                        margin-left: -18px
+                i:hover
+                    opacity: .5
+            .item-select-color-white
+                i
+                    color: white
+                    input
+                        margin-left: -18px
+                i:hover
+                    color: #e3e2ff
+            .item-select-color-black
+                i
+                    color: black
+                    input
+                        margin-left: -18px
+                i:hover
+                    opacity: .5
+            .item-select-color-gold
+                i
+                    color: gold
+                    input
+                        margin-left: -19px
+                i:hover
+                    opacity: .5
+                
+    .item-price
+        font-size: 1.5rem
+        font-weight: 500
+        color: #677288
+        margin-top: 8px
+        margin-bottom: 12px
+        margin-left: -10px
+    .item-select
+        background: url(../img/arrow-down2.svg) 80% center no-repeat
+        background-color: #fff
+        font-size: 1rem
+        padding: 10px 25px
+        background-size: 10px
+        margin-top: 10px
+        width: 70px
+        border-radius: 10px        
+        
+.product-name-buttons
+    margin-top: 30px
+    .product-name-heart
+        text-align: center
+        margin-right: -10px
+        a
+            border: 1px solid black
+            padding: 10px 50px
+            border-radius: 50px
+            color: whitesmoke
+            background-color: black
+            transition: .3s
+            i
+                margin-right: 15px
+        a:hover
+            border: 1px solid whitesmoke
+            background-color: whitesmoke
+            color: $basic
+            text-decoration: none
+            transition: .3s
+            box-shadow: 5px 5px 10px rgba(230, 178, 235, 0.4)
+            i
+                color: pink
+    .product-name-cart
+        text-align: center
+        margin-left: -10px
+        a
+            border: 1px solid $basic
+            background-color: $basic
+            padding: 10px 60px
+            border-radius: 50px
+            color: whitesmoke
+            transition: .3s
+            i
+                margin-right: 15px
+        a:hover
+            border: 1px solid whitesmoke
+            background-color: whitesmoke
+            color: $basic
+            text-decoration: none
+            transition: .3s
+            box-shadow: 5px 5px 10px rgba(161, 190, 213, 0.4)
+            i
+                color: $basic
+       

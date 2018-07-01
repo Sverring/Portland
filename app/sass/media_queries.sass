@@ -1,5 +1,25 @@
+$basic: #343e5c
+
 /*              MEDIA QUERIES              */
 
+/***************** 2560 MAX **************/
+@media (max-width: 2560px) 
+    .first-block
+        .logo-pic
+            img
+                margin-left: 0
+            p
+                margin-top: -5px
+                margin-left: 15px
+    .sign-in
+        margin-top: 2.5%
+    footer
+        .footer-menu
+            .logo-pic
+                img
+                    margin-left: 0px
+                p
+                    margin-top: -7px
 /*************  1440 MAX  ***************/
 
 @media (max-width: 1440px)
@@ -7,10 +27,13 @@
         .logo-pic
             img
                 margin-left: 0
+            p
+                margin-top: -5px
+                margin-left: 15px
         .cart-icon
             margin-left: 40%
         .sign-in
-            margin-top: 2.5%
+            margin-top: 3%
             width: 100px
         .nav-menu-bottom
             margin-left: 15px
@@ -60,6 +83,39 @@
             .logo-pic
                 img
                     margin-left: 0px
+                p
+                    margin-top: -5px
+                    
+    /* PRODUCT PAGE */
+    .product-name-slider
+        margin-top: 30px
+        .img-block
+            width: 100%
+            height: 400px
+            background: #ddd
+            border: 2px solid #eee
+        .img-block2
+            width: 100%
+            height: 160px
+            background: #ddd 
+        .product-name-pic-1
+            background: url(../img/2.jpg)
+            background-size: cover
+            background-repeat: no-repeat
+            background-position: center
+        .product-name-pic-2
+            background: url(../img/3.jpg)
+            background-size: cover
+            background-repeat: no-repeat
+            background-position: center 
+        .product-name-pic-3
+            background: url(../img/4.jpg)
+            background-size: cover
+            background-repeat: no-repeat
+            background-position: center
+    .img-block-item
+        margin: 5px !important
+    
                     
 
 /*************  1199 MAX  ***************/
@@ -71,9 +127,14 @@
             margin-top: 0
             margin-bottom: 4px
         .logo-pic
-            img
-                margin-left: -25px
-                margin-top: -3px
+            margin-left: -15px
+            margin-top: 6px
+            p
+                padding: 0
+                margin-top: -5px
+                font-family: Cookie-Regular
+                color: $basic
+                font-size: 1.5rem
         .cart-icon
             margin-left: 35%
 
@@ -162,16 +223,185 @@
             padding: 0 !important
         .customer-text-2
             padding: 0 !important
-
+    footer
+        .footer-menu
+            .logo-pic
+                p
+                    margin-top: -7px
+                    
+    /*DELIVERY PAGE*/
+    .delivery-block
+        .delivery-small-block-1
+            margin: 15px 0
+            .delivery-img-1
+                margin-left: 40px
+            .delivery-h6
+                margin-top: 10px
+                margin-left: 20px
+            .delivery-text
+                text-align: center
+        .delivery-small-block-2
+            margin: 15px 0
+            margin-top: 5px
+            .delivery-img-1
+                margin-left: 40px
+            .delivery-h6
+                margin-top: 10px
+                margin-left: 20px
+            .delivery-text
+                text-align: center
+        .delivery-small-block-3
+            margin: 15px 0
+            .delivery-img-1
+                margin-left: 40px
+                margin-top: 5px
+            .delivery-h6
+                margin-top: 10px
+                margin-left: 20px
+            .delivery-text
+                text-align: center
+        .delivery-small-block-4
+            margin: 15px 0
+            .delivery-img-1
+                margin-left: 40px
+                margin-top: 5px
+            .delivery-h6
+                margin-top: 10px
+                margin-left: 20px
+            .delivery-text
+                text-align: center
+                
+    .payment-block
+        .payment-small-block-1
+            margin: 20px 0 15px 0
+            .payment-img-1
+                margin-left: 60px
+            .payment-h6
+                margin-top: 5px
+                margin-left: 40px
+            .payment-text
+                text-align: center
+                
+        .payment-small-block-2
+            margin: 10px 0 15px 0
+            .payment-img-1
+                margin-left: 60px
+            .payment-h6
+                margin-top: 5px
+                margin-left: 40px
+            .payment-text
+                text-align: center
+        .payment-small-block-3
+            margin: 14px 0
+            margin-top: 13px
+            .payment-img-1
+                margin-left: 60px
+                margin-top: 5px
+            .payment-h6
+                margin-top: 12px
+                margin-left: 40px
+            .payment-text
+                text-align: center
+        .payment-small-block-4
+            margin: 8px 0
+            margin-bottom: 15px
+            .payment-img-1
+                margin-left: 60px
+                margin-top: 5px
+            .payment-h6
+                margin-top: 14px
+                margin-left: 40px
+                font-size: 1rem
+            .payment-text
+                text-align: center
+                
+    /*GUARANTEE PAGE*/
+    .g-block-1
+        width: 300px !important
+        .guarantee-list-words
+            margin-top: 42% !important
+    .g-block-2
+        width: 300px !important
+        .guarantee-list-words
+            margin-top: 42% !important
+    .g-block-3
+        width: 300px !important
+        .guarantee-list-words
+            margin-top: 42% !important
     
+    /* ABOUT PAGES */
+    .about-us-information
+        .about-us-text
+            .about-p-1
+                font-size: .9rem
+            .about-p-2
+                font-size: .9rem
+            .about-p-3
+                font-size: .9rem
+            .about-p-4
+                font-size: .9rem
+                    
+    /* CART */
+    .cart-checkout-button
+        a
+            padding: 10px 40px !important
+    .cart-items
+        .cart-box
+            .cart-text-position 
+                p
+                    font-size: 0.9rem
+            .cart-cross
+                padding: 12px 0
+                padding-right: 20px
+                
+    /* PRODUCT */
+    .product-name-slider
+        margin-top: 30px
+        .img-block
+            width: 100%
+            height: 400px
+            background: #ddd
+            border: 2px solid #eee
+        .img-block2
+            width: 100%
+            height: 140px
+            background: #ddd
+        .product-name-pic-1
+            background: url(../img/2.jpg)
+            background-size: cover
+            background-repeat: no-repeat
+            background-position: center
+        .product-name-pic-2
+            background: url(../img/3.jpg)
+            background-size: cover
+            background-repeat: no-repeat
+            background-position: center 
+        .product-name-pic-3
+            background: url(../img/4.jpg)
+            background-size: cover
+            background-repeat: no-repeat
+            background-position: center 
+    .product-name-buttons
+        .product-name-heart
+             a
+                padding: 10px 30px
+        .product-name-cart
+            a
+                padding: 10px 40px
             
 /**********************  991 MAX  ********************/            
             
 @media (max-width: 991px)
     .first-block
         .logo-pic
-            img
-                margin-left: 25px
+            margin-left: 10px
+            margin-top: 4px
+            p
+                padding: 0
+                margin-top: -6px
+                font-family: Cookie-Regular
+                color: $basic
+                font-size: 1.75rem
         .cart-icon
             margin-left: 55%
             
@@ -194,8 +424,8 @@
                     margin-left: 5px
                 li:nth-child(3)
                     input
-                        max-width: 150px !important
-    
+                        max-width: 150px !important              
+                
     .second-large-block
         
         .filter-line-nav
@@ -281,10 +511,276 @@
     footer
         .footer-menu
             .logo-pic
+                width: 115px
+                height: 35px
+                margin-left: 20px
+                margin-top: 17px
                 img
                     margin-top: 6px
                     margin-left: 0px
+    .catalog-way
+        ul
+            list-style-type: none
+            margin-top: 20px
+            margin-bottom: 5px !important 
+    
+    /* DELIVERY PAGE*/
+    .delivery-block
+        margin-top: 15px
+        .delivery-small-block-1 
+            .delivery-img-1
+                margin-left: 180px
+            .delivery-h6
+                margin-left: 120px !important
+        .delivery-small-block-2 
+            .delivery-img-1
+                margin-left: 180px
+            .delivery-h6
+                margin-left: 120px !important
+        .delivery-small-block-3 
+            .delivery-img-1
+                margin-left: 180px
+            .delivery-h6
+                margin-left: 120px !important
+        .delivery-small-block-4 
+            .delivery-img-1
+                margin-left: 180px
+            .delivery-h6
+                margin-left: 120px !important
+            .delivery-text
+                margin-bottom: 50px
+    .payment-block
+        margin-top: 15px
+        .payment-small-block-1 
+            .payment-img-1
+                margin-left: 180px
+            .payment-h6
+                margin-left: 120px !important
+        .payment-small-block-2 
+            .payment-img-1
+                margin-left: 180px
+            .payment-h6
+                margin-left: 120px !important
+        .payment-small-block-3 
+            .payment-img-1
+                margin-left: 180px
+            .payment-h6
+                margin-left: 120px !important
+        .payment-small-block-4 
+            .payment-img-1
+                margin-left: 180px
+            .payment-h6
+                margin-left: 120px !important
+            .payment-text
+                margin-bottom: 50px
+    .delivery-padding-bottom
+        padding-bottom: 70px !important
+        
+    /* GUARANTEE PAGE */
+    .g-block-1
+        width: 230px !important
+        .guarantee-block-number
+            font-size: 9rem !important
+            text-align: right
+            margin-top: 5% !important
+        .guarantee-list-words
+            margin-top: 52% !important
+            margin-left: -15% !important
+            font-size: 1.25rem !important
+            .guarantee-block-word
+                margin: 0
+                text-align: left
+        .guarantee-text
+            margin: 0
+            margin-top: -10px !important
+            margin-bottom: 10px
+            margin-left: 20%
+            margin-right: 15%
+            font-size: .9rem 
+    .g-block-2
+        width: 230px !important   
+        .guarantee-block-number
+            font-size: 9rem !important
+            text-align: right
+            margin-top: 5% !important
+            margin-right: 5% !important
+        .guarantee-list-words
+            margin-top: 52% !important
+            margin-left: -20% !important
+            font-size: 1.25rem !important
+            .guarantee-block-word
+                margin: 0
+                text-align: left
+        .guarantee-text
+            margin: 0
+            margin-top: -10px !important
+            margin-bottom: 10px
+            margin-left: 20%
+            margin-right: 15%
+            font-size: .9rem        
+    .g-block-3
+        width: 230px !important
+        .guarantee-block-number
+            font-size: 9rem !important
+            text-align: right
+            margin-top: 5% !important
+        .guarantee-list-words
+            margin-top: 52% !important
+            margin-left: -20% !important
+            font-size: 1.25rem !important
+            .guarantee-block-word
+                margin: 0
+                text-align: left
+        .guarantee-text
+            margin: 0
+            margin-top: -10px !important
+            margin-bottom: 10px
+            margin-left: 20%
+            margin-right: 15%
+            font-size: .9rem
+                
+    /* ABOUT PAGES */
+    .about-us-information
+        .about-us-text
+            .about-p-1
+                font-size: 1.1rem
+            .about-p-2
+                font-size: 1.1rem
+            .about-p-3
+                font-size: 1.1rem
+            .about-p-4
+                font-size: 1.1rem
+    .contacts-information
+        height: 600px !important
+        .contacts-list
+            ul
+                li
+                    font-size: 1.1rem
+    #map-canvas 
+        height: 330px !important
+    
+    .second-large-block
+        .about-us-information
+            margin-top: 45px
             
+    /* CART */
+    .cart-items
+        margin-top: 15px
+        .cart-box
+            img
+                margin-top: 10px
+                margin-right: -20px
+     
+    .cart-checkout
+        margin-top: 15px
+        .cart-checkout-box
+            min-height: 260px
+            h4
+                padding-bottom: 5px
+                font-size: 1.1rem
+            .cart-subtotal-info-left
+                text-align: left
+                padding-top: 5px
+                font-weight: 600
+                padding-left: 15px
+                font-size: .7rem
+                color: $basic
+            .cart-subtotal-info-right
+                text-align: right
+                padding-top: 5px
+                font-weight: 600
+                padding-right: 15px
+                font-size: .7rem
+                color: $basic
+            
+            .cart-total-border
+                border-top: 1px solid #f69e7d
+                margin-top: 25px
+            
+                .cart-checkout-total-left
+                    padding-left: 15px
+                    font-size: 0.85rem
+                   
+                .cart-checkout-total-right
+                    padding-right: 15px
+                    font-size: 0.85rem
+                    
+            .cart-checkout-button
+                text-align: center
+                padding-top: 5px
+                a
+                    font-size: 0.8rem
+                    padding: 5px 20px !important
+                    
+    /* PRODUCT */
+    .active
+        i
+            font-size: 1rem !important
+    .catalog-padding-bottom
+        padding-bottom: 25px
+    .product-name-slider
+        margin-top: 15px
+        .img-block
+            width: 100%
+            height: 480px
+            background: #ddd
+            border: 2px solid #eee
+
+        .img-block2
+            width: 100%
+            height: 90px !important
+            background: #ddd 
+            
+        .product-name-pic-1
+            background: url(../img/1.jpg)
+            background-size: cover
+            background-repeat: no-repeat
+            background-position: center
+
+        .product-name-pic-2
+            background: url(../img/2.jpg)
+            background-size: cover
+            background-repeat: no-repeat
+            background-position: center 
+
+        .product-name-pic-3
+            background: url(../img/3.jpg)
+            background-size: cover
+            background-repeat: no-repeat
+            background-position: center
+        
+        .product-name-pic-4
+            background: url(../img/4.jpg)
+            background-size: cover
+            background-repeat: no-repeat
+            background-position: center
+            
+    .item-title
+        margin-top: 5px
+    .item-select   
+        padding: 10px 15px 10px 10px !important
+    .item-select-color
+        margin-left: 5px
+    .product-name-buttons
+        margin-top: 30px
+        .product-name-heart
+            margin-right: 0
+            a
+                padding: 7px 50px
+                margin-right: 0
+                font-size: .95rem
+                i
+                    margin-right: 5px
+        .product-name-cart
+            margin-left: 0
+            margin-top: 17.5px
+            a
+                padding: 7px 60px
+                margin-left: 0
+                font-size: .95rem
+                i
+                    margin-right: 10px
+                    
 /**********************  767 MAX  ********************/
 
 @media (max-width: 767px)
@@ -293,6 +789,8 @@
             img
                 display: block
                 margin: 0 auto
+            p
+                margin-left: -10px
         .cart-icon
             margin-left: 80px
         .nav-menu-bottom
@@ -316,7 +814,11 @@
         .slider-info
             margin-left: 0
 
-
+    .catalog-way
+        ul
+            list-style-type: none
+            margin-top: 20px
+            margin-bottom: 0px
     .second-large-block
         .filter-line
             margin-bottom: -25px
@@ -386,11 +888,215 @@
         .customer-text-2
             padding: 0px !important
             
+    footer
+        .footer-menu
+            .logo-pic
+                width: 115px
+                height: 35px
+                margin-left: 20px
+                margin-top: 12px
+                
+    /*DELIVERY PAGE*/
+    .delivery-block
+        .delivery-small-block-1 
+            .delivery-img-1
+                margin-left: 80px
+            .delivery-h6
+                margin-left: 50px !important
+        .delivery-small-block-2 
+            .delivery-img-1
+                margin-left: 80px
+            .delivery-h6
+                margin-left: 50px !important
+        .delivery-small-block-3 
+            .delivery-img-1
+                margin-left: 80px
+            .delivery-h6
+                margin-left: 50px !important
+        .delivery-small-block-4 
+            .delivery-img-1
+                margin-left: 80px
+            .delivery-h6
+                margin-left: 50px !important
+            .delivery-text
+                margin-bottom: 50px
+    .payment-block
+        .payment-small-block-1 
+            .payment-img-1
+                margin-left: 80px
+            .payment-h6
+                margin-left: 50px !important
+        .payment-small-block-2 
+            .payment-img-1
+                margin-left: 80px
+            .payment-h6
+                margin-left: 50px !important
+        .payment-small-block-3 
+            .payment-img-1
+                margin-left: 80px
+            .payment-h6
+                margin-left: 50px !important
+        .payment-small-block-4 
+            .payment-img-1
+                margin-left: 80px
+            .payment-h6
+                margin-left: 50px !important
+            .payment-text
+                margin-bottom: 50px
+                
+    /* GUARANTEE PAGE */
+    .guarantee-block
+        margin-top: 15px !important
+        margin-bottom: 20px !important
+        .g-block-1
+            height: 350px !important
+            width: 350px !important
+            margin-left: 16%
+            margin-bottom: 5%
+            .guarantee-block-number
+                font-size: 11rem !important
+                margin-top: 0% !important
+            .guarantee-list-words
+                margin-top: 36% !important
+                font-size: 1.5rem !important
+            .guarantee-text
+                margin-top: -30px !important
+
+        .g-block-2
+            height: 350px !important
+            width: 350px !important
+            margin-left: 16%
+            margin-bottom: 5%
+            .guarantee-block-number
+                font-size: 11rem !important
+                margin-top: 0% !important
+            .guarantee-list-words
+                margin-top: 36% !important
+                font-size: 1.5rem !important
+            .guarantee-text
+                margin-top: -30px !important
+
+        .g-block-3
+            height: 350px !important
+            width: 350px !important
+            margin-left: 16%
+            .guarantee-block-number
+                font-size: 11rem !important
+                margin-top: 0% !important
+            .guarantee-list-words
+                margin-top: 36% !important
+                font-size: 1.5rem !important
+            .guarantee-text
+                margin-top: -30px !important
+                
+    /* ABOUT PAGES */
+    .content-overlay 
+        .about-title
+            font-size: 5rem !important
+            margin-top: 8% !important
+    .about-us-information
+        .about-us-text
+            .about-p-1
+                font-size: .95rem
+            .about-p-2
+                font-size: .95rem
+            .about-p-3
+                font-size: .95rem
+            .about-p-4
+                font-size: .95rem
+                    
+    /* CART */
+    .cart-items
+        margin-top: 15px
+    .cart-checkout
+        .cart-checkout-box
+            .cart-subtotal-info-left
+                font-size: .8rem
+            .cart-subtotal-info-right
+                font-size: .8rem
+            .cart-total-border
+                .cart-checkout-total-left
+                    font-size: 1rem    
+                .cart-checkout-total-right
+                    font-size: 1rem
+            .cart-checkout-button
+                    text-align: center
+                    padding-top: 10px
+                    a
+                        font-size: 0.8rem
+                        padding: 7px 50px !important
+                    
+                    
+    /* PRODUCT */
+    .catalog-padding-bottom
+        padding-bottom: 80px
+        
+    .product-name-slider
+        margin-top: 15px
+        .img-block
+            width: 100%
+            height: 480px
+            background: #ddd
+            border: 2px solid #eee
+
+        .img-block2
+            width: 100%
+            height: 150px !important
+            background: #ddd
+
+        .product-name-pic-1
+            background: url(../img/1.jpg)
+            background-size: cover
+            background-repeat: no-repeat
+            background-position: center
+
+        .product-name-pic-2
+            background: url(../img/2.jpg)
+            background-size: cover
+            background-repeat: no-repeat
+            background-position: center 
+
+        .product-name-pic-3
+            background: url(../img/3.jpg)
+            background-size: cover
+            background-repeat: no-repeat
+            background-position: center
+        
+        .product-name-pic-4
+            background: url(../img/4.jpg)
+            background-size: cover
+            background-repeat: no-repeat
+            background-position: center
+ 
+    .item-title
+        text-align: center
+        margin-top: -10px
+    .item-article
+        text-align: center
+    .item-anchor
+        display: block 
+        text-align: center
+        margin-bottom: 25px
+    
+    .product-name-info 
+        .item-price
+            text-align: center
+            margin-left: 0
+        .item-select   
+            width: 75px
+            padding: 10px 25px 10px 20px !important
+    .product-name-buttons
+        .product-name-cart
+            margin-top: 0
             
+
 /************************ 575 MAX *******************/
 
-@media (max-width: 575px)
+@media (max-width: 575px)       
     .first-block
+        .logo-pic
+            p
+                margin-left: -60px
         .cart-icon
             margin-left: 0
             margin-top: 5px
@@ -458,15 +1164,184 @@
                     li 
                         a
                             padding: 4px 6px !important
+                            
+    /*DELIVERY PAGE*/
+    .delivery-block
+        .delivery-small-block-1 
+            .delivery-img-1
+                margin-left: 45%
+            .delivery-h6
+                margin-left: 12.5% !important
+                margin-right: 12.5% !important
+                text-align: center                
+        .delivery-small-block-2 
+            .delivery-img-1
+                margin-left: 45%
+            .delivery-h6
+                margin-left: 12.5% !important
+                margin-right: 12.5% !important
+                text-align: center
+        .delivery-small-block-3 
+            .delivery-img-1
+                margin-left: 45%
+            .delivery-h6
+                margin-left: 12.5% !important
+                margin-right: 12.5% !important
+                text-align: center
+        .delivery-small-block-4 
+            .delivery-img-1
+                margin-left: 45%
+            .delivery-h6
+                margin-left: 12.5% !important
+                margin-right: 12.5% !important
+                text-align: center
+            .delivery-text
+                margin-bottom: 50px
+    .payment-block
+        .payment-small-block-1 
+            .payment-img-1
+                margin-left: 45%
+            .payment-h6
+                margin-left: 12.5% !important
+                margin-right: 12.5% !important
+                text-align: center      
+        .payment-small-block-2 
+            .payment-img-1
+                margin-left: 45%
+            .payment-h6
+                margin-left: 12.5% !important
+                margin-right: 12.5% !important
+                text-align: center
+        .payment-small-block-3 
+            .payment-img-1
+                margin-left: 45%
+            .payment-h6
+                margin-left: 12.5% !important
+                margin-right: 12.5% !important
+                text-align: center
+        .payment-small-block-4 
+            .payment-img-1
+                margin-left: 45%
+            .payment-h6
+                margin-left: 12.5% !important
+                margin-right: 12.5% !important
+                text-align: center
+            .payment-text
+                margin-bottom: 50px
+                
+    /* GUARANTEE PAGE */
+    .g-block-1,
+    .g-block-2,
+    .g-block-3
+        display: block
+        margin: 15px auto !important
+        
+    /* CART */
+    .cart-items 
+        .cart-box
+            img
+                margin-top: 12px
+    .cart-checkout 
+        .cart-checkout-box
+            min-height: 280px
+            h4
+                font-size: 1.3rem
+            .cart-subtotal-info-left
+                font-size: .9rem
+            .cart-subtotal-info-right
+                font-size: .9rem
+            .cart-total-border
+                .cart-checkout-total-left
+                    font-size: 1.1rem    
+                .cart-checkout-total-right
+                    font-size: 1.1rem
+            .cart-checkout-button
+                text-align: center
+                padding-top: 10px
+                a
+                    font-size: 0.9rem
+                    padding: 7px 50px !important
+    
+    /* PRODUCT */
+    
+    .product-name-slider
+        .img-block
+            height: 380px
+        .img-block2
+            height: 150px !important
+            
+        .product-name-pic-1
+            background: url(../img/1.jpg)
+            background-size: cover
+            background-repeat: no-repeat
+            background-position: center
+
+        .product-name-pic-2
+            background: url(../img/2.jpg)
+            background-size: cover
+            background-repeat: no-repeat
+            background-position: center 
+
+        .product-name-pic-3
+            background: url(../img/3.jpg)
+            background-size: cover
+            background-repeat: no-repeat
+            background-position: center
+        
+        .product-name-pic-4
+            background: url(../img/4.jpg)
+            background-size: cover
+            background-repeat: no-repeat
+            background-position: center
+    
+    .product-name-buttons
+        margin-top: 40px
+        .product-name-heart
+            margin-right: 0
+            a
+                padding: 10px 130px
+                margin-right: 0
+                font-size: .95rem
+                i
+                    margin-right: 5px
+        .product-name-cart
+            margin-left: 0
+            margin-top: 25px
+            a
+                padding: 10px 140px
+                margin-left: 0
+                font-size: .95rem
+                i
+                    margin-right: 10px
+    
+    
+    
+/************************ 528 MAX *******************/        
+@media (max-width: 528px)
+    /* ABOUT PAGE */
+    .second-large-block
+        .about-us-information
+            height: 540px !important
+            margin-top: 30px
+        .contacts-information
+            margin-bottom: -15px
+        
+        
 
 /************************ 480 MAX *******************/
 
 @media (max-width: 480px)
-
     body select
         padding: 10px 17px 10px 10px
 
     .first-block
+        .logo-pic
+            margin: 0
+            width: 100%
+            p
+                margin: 0
+                text-align: center
+                display: block
         .cart
             display: none
         .cart-icon
@@ -693,6 +1568,10 @@
             text-align: center !important
         .footer-menu
             .logo-pic
+                width: 115px
+                height: 35px
+                margin-left: 40px
+                margin-top: 10px
                 img
                     margin-top: 0px !important
                     
@@ -703,7 +1582,194 @@
                     li:nth-child(6)
                         margin-right: 0px !important
                         margin-left: 5px !important
+                    
+    /* GUARANTEE PAGE */
+    .guarantee-block
+        margin-bottom: 0px !important  
+        .g-block-1
+            height: 300px !important
+            width: 300px !important
+            .guarantee-block-number
+                font-size: 9rem !important
+                text-align: right
+                margin-top: 5% !important
+            .guarantee-list-words
+                margin-top: 38% !important
+                margin-left: -15% !important
+                font-size: 1.25rem !important
+            .guarantee-block-word
+                margin: 0
+                text-align: left
+            .guarantee-text
+                margin: 0
+                margin-top: -20px !important
+                margin-bottom: 10px
+                margin-left: 20%
+                margin-right: 15%
+                font-size: .9rem
+        .g-block-2
+            height: 300px !important
+            width: 300px !important
+            .guarantee-block-number
+                font-size: 9rem !important
+                text-align: right
+                margin-top: 5% !important
+            .guarantee-list-words
+                margin-top: 38% !important
+                margin-left: -15% !important
+                font-size: 1.25rem !important
+            .guarantee-block-word
+                margin: 0
+                text-align: left
+            .guarantee-text
+                margin: 0
+                margin-top: -20px !important
+                margin-bottom: 10px
+                margin-left: 20%
+                margin-right: 15%
+                font-size: .9rem 
+        .g-block-3
+            height: 300px !important
+            width: 300px !important
+            .guarantee-block-number
+                font-size: 9rem !important
+                text-align: right
+                margin-top: 5% !important
+            .guarantee-list-words
+                margin-top: 38% !important
+                margin-left: -15% !important
+                font-size: 1.25rem !important
+            .guarantee-block-word
+                margin: 0
+                text-align: left
+            .guarantee-text
+                margin: 0
+                margin-top: -20px !important
+                margin-bottom: 10px
+                margin-left: 20%
+                margin-right: 15%
+                font-size: .9rem
+                    
+    /* ABOUT PAGE */
+    .content-overlay 
+        .about-title
+            font-size: 4rem !important
+            margin-top: 14% !important
+            
+    /* PRODUCT */
+    
+    .product-name-slider
+        .img-block
+            height: 300px
+        .img-block2
+            height: 125px !important
+            
+        .product-name-pic-1
+            background: url(../img/1.jpg)
+            background-size: cover
+            background-repeat: no-repeat
+            background-position: center
 
+        .product-name-pic-2
+            background: url(../img/2.jpg)
+            background-size: cover
+            background-repeat: no-repeat
+            background-position: center 
+
+        .product-name-pic-3
+            background: url(../img/3.jpg)
+            background-size: cover
+            background-repeat: no-repeat
+            background-position: center
+        
+        .product-name-pic-4
+            background: url(../img/4.jpg)
+            background-size: cover
+            background-repeat: no-repeat
+            background-position: center
+    
+    .catalog-padding-bottom
+        padding-bottom: 50px !important
+    .product-name-buttons
+        margin-top: 40px
+        .product-name-heart
+            margin-right: 0
+            a
+                padding: 10px 80px
+        .product-name-cart
+            margin-left: 0
+            margin-top: 25px
+            a
+                padding: 10px 90px
+            
+/************************ 455 MAX *******************/
+@media (max-width: 455px) 
+    
+    /* ABOUT PAGE */
+    .about-us-information
+        .about-us-text
+            .about-p-1
+                font-size: .9rem
+            .about-p-2
+                font-size: .9rem
+            .about-p-3
+                font-size: .9rem
+            .about-p-4
+                font-size: .9rem
+
+/************************ 435 MAX *******************/
+
+@media (max-width: 435px)
+    
+    /* ABOUT PAGE */
+    .second-large-block
+        .about-us-information
+            height: 575px !important
+    .contacts-information 
+        .contacts-list 
+            ul 
+                li 
+                    p
+                        font-size: .9rem
+                    a
+                        font-size: .9rem
+                    
+/************************ 400 MAX *******************/
+@media (max-width: 400px)
+    
+    /* ABOUT PAGE */
+    .contacts-information 
+        .contacts-list 
+            ul 
+                li 
+                    p
+                        font-size: .8rem
+                    a
+                        font-size: .8rem
+
+/************************ 376 MAX *******************/
+
+@media (max-width: 376px)
+    
+    /* ABOUT PAGE */
+    .content-overlay 
+        .about-title
+            font-size: 3rem !important
+            margin-top: 20% !important
+    .second-large-block
+        .about-us-information
+            height: 630px !important
+        .contacts-information
+            margin-bottom: -30px
+            .contacts-list 
+                ul
+                    padding-left: 20px
+                    li 
+                        p
+                            font-size: .75rem
+                        a
+                            font-size: .75rem
+                                                
 /************************ 375 MAX *******************/
                  
 @media (max-width: 375px)
@@ -737,7 +1803,172 @@
             .lb-price-box
                 font-weight: 600
                 font-size: .75rem
+    footer
+        .footer-menu
+            .logo-pic
+                margin-left: 30px
+                margin-top: 10px
         
+    /* GUARANTEE PAGE */
+    .guarantee-block
+        margin-bottom: 0px !important  
+        .g-block-1
+            height: 275px !important
+            width: 275px !important
+            .guarantee-block-number
+                font-size: 8rem !important
+                text-align: right
+                margin-top: 5% !important
+            .guarantee-list-words
+                margin-top: 38% !important
+                margin-left: -15% !important
+                font-size: 1.1rem !important
+            .guarantee-block-word
+                margin: 0
+                text-align: left
+            .guarantee-text
+                margin: 0
+                margin-top: -30px !important
+                margin-bottom: 10px
+                margin-left: 20%
+                margin-right: 15%
+                font-size: .9rem
+        .g-block-2
+            height: 275px !important
+            width: 275px !important
+            .guarantee-block-number
+                font-size: 8rem !important
+                text-align: right
+                margin-top: 5% !important
+            .guarantee-list-words
+                margin-top: 38% !important
+                margin-left: -15% !important
+                font-size: 1.1rem !important
+            .guarantee-block-word
+                margin: 0
+                text-align: left
+            .guarantee-text
+                margin: 0
+                margin-top: -30px !important
+                margin-bottom: 10px
+                margin-left: 20%
+                margin-right: 15%
+                font-size: .9rem
+        .g-block-3
+            height: 275px !important
+            width: 275px !important
+            .guarantee-block-number
+                font-size: 8rem !important
+                text-align: right
+                margin-top: 5% !important
+            .guarantee-list-words
+                margin-top: 38% !important
+                margin-left: -15% !important
+                font-size: 1.1rem !important
+            .guarantee-block-word
+                margin: 0
+                text-align: left
+            .guarantee-text
+                margin: 0
+                margin-top: -30px !important
+                margin-bottom: 10px
+                margin-left: 20%
+                margin-right: 15%
+                font-size: .9rem
+                    
+    /* PRODUCT */
+    .product-name-slider
+        margin-top: 15px
+        .img-block
+            width: 100%
+            height: 300px
+            background: #ddd
+            border: 2px solid #eee
+
+        .img-block2
+            width: 100%
+            height: 100px !important
+            background: #ddd
+            
+        .product-name-pic-1
+            background: url(../img/1.jpg)
+            background-size: cover
+            background-repeat: no-repeat
+            background-position: center
+
+        .product-name-pic-2
+            background: url(../img/2.jpg)
+            background-size: cover
+            background-repeat: no-repeat
+            background-position: center 
+
+        .product-name-pic-3
+            background: url(../img/3.jpg)
+            background-size: cover
+            background-repeat: no-repeat
+            background-position: center
+        
+        .product-name-pic-4
+            background: url(../img/4.jpg)
+            background-size: cover
+            background-repeat: no-repeat
+            background-position: center
+            
+    .product-name-info
+        .item-select
+            padding: 8px 0px 10px 6px !important
+        .item-select-color
+            ul
+                margin-top: 5px
+            .item-select-color-red
+                margin-left: 14px
+            .item-select-color-black
+                margin-left: 25px
+
+/************************ 368 MAX *******************/
+@media (max-width: 368px)
+    
+    /* ABOUT PAGE */
+    .second-large-block
+        .about-us-information
+            height: 650px !important
+        .contacts-information
+            margin-bottom: -20px
+                    
+/************************ 348 MAX *******************/
+
+
+@media (max-width: 348px)
+    
+    /* ABOUT PAGE */
+    .second-large-block
+        .about-us-information
+            height: 680px !important
+
+            
+/************************ 330 MAX *******************/            
+@media (max-width: 330px)
+    
+    /* ABOUT PAGE */
+    .second-large-block
+        .contacts-information
+            .contacts-list 
+                ul
+                    padding-left: 20px
+                    li 
+                        p
+                            font-size: .7rem
+                        a
+                            font-size: .7rem            
+/************************ 327 MAX *******************/
+                                
+@media (max-width: 327px)
+    
+    /* ABOUT PAGE */
+    .second-large-block
+        .about-us-information
+            height: 740px !important
+
 
 /************************ 320 MAX *******************/
 
