@@ -1,0 +1,79 @@
+.guarantee-block {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+  .guarantee-block .g-block-1 {
+    font-family: geometria-lignt;
+    background-color: whitesmoke;
+    height: 350px;
+    width: 350px;
+    -webkit-border-radius: 5px;
+            border-radius: 5px; }
+    .guarantee-block .g-block-1 .guarantee-block-number {
+      font-size: 11rem;
+      text-align: right;
+      margin-top: 0%; }
+    .guarantee-block .g-block-1 .guarantee-list-words {
+      margin-top: 36%;
+      margin-left: -10%;
+      font-size: 1.5rem; }
+      .guarantee-block .g-block-1 .guarantee-list-words .guarantee-block-word {
+        margin: 0;
+        text-align: left; }
+    .guarantee-block .g-block-1 .guarantee-text {
+      margin: 0;
+      margin-top: -25px;
+      margin-bottom: 10px;
+      margin-left: 20%;
+      margin-right: 15%;
+      font-size: .9rem; }
+  .guarantee-block .g-block-2 {
+    font-family: geometria-lignt;
+    background-color: whitesmoke;
+    height: 350px;
+    width: 350px;
+    -webkit-border-radius: 5px;
+            border-radius: 5px; }
+    .guarantee-block .g-block-2 .guarantee-block-number {
+      font-size: 11rem;
+      text-align: right;
+      margin-top: 0%;
+      margin-right: 10% !important; }
+    .guarantee-block .g-block-2 .guarantee-list-words {
+      margin-top: 36%;
+      margin-left: -25%;
+      font-size: 1.5rem; }
+      .guarantee-block .g-block-2 .guarantee-list-words .guarantee-block-word {
+        margin: 0;
+        text-align: left; }
+    .guarantee-block .g-block-2 .guarantee-text {
+      margin: 0;
+      margin-top: -25px;
+      margin-bottom: 10px;
+      margin-left: 20%;
+      margin-right: 15%;
+      font-size: .9rem; }
+  .guarantee-block .g-block-3 {
+    font-family: geometria-lignt;
+    background-color: whitesmoke;
+    height: 350px;
+    width: 350px;
+    -webkit-border-radius: 5px;
+            border-radius: 5px; }
+    .guarantee-block .g-block-3 .guarantee-block-number {
+      font-size: 11rem;
+      text-align: right;
+      margin-top: 0%; }
+    .guarantee-block .g-block-3 .guarantee-list-words {
+      margin-top: 36%;
+      margin-left: -10%;
+      font-size: 1.5rem; }
+      .guarantee-block .g-block-3 .guarantee-list-words .guarantee-block-word {
+        margin: 0;
+        text-align: left; }
+    .guarantee-block .g-block-3 .guarantee-text {
+      margin: 0;
+      margin-top: -25px;
+      margin-bottom: 10px;
+      margin-left: 20%;
+      margin-right: 15%;
+      font-size: .9rem; }

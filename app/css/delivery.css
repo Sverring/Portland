@@ -1,0 +1,146 @@
+.delivery-block {
+  background-color: #fff;
+  margin-top: 30px;
+  padding: 0 40px;
+  font-family: Corbert-Regular; }
+  .delivery-block .delivery-title {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px; }
+  .delivery-block .delivery-small-block-1 {
+    margin: 15px;
+    margin-left: 20px;
+    margin-right: 10px; }
+    .delivery-block .delivery-small-block-1 .delivery-img-1 {
+      width: 30px;
+      height: 30px;
+      margin-top: 7px; }
+    .delivery-block .delivery-small-block-1 .delivery-h6 {
+      font-size: 1rem;
+      margin-left: 10px;
+      margin-top: 2px; }
+    .delivery-block .delivery-small-block-1 .delivery-text {
+      padding-top: 5px;
+      width: 100%;
+      font-size: .75rem; }
+  .delivery-block .delivery-small-block-2 {
+    margin: 15px;
+    margin-left: 10px;
+    margin-right: 20px; }
+    .delivery-block .delivery-small-block-2 .delivery-img-1 {
+      width: 30px;
+      height: 30px;
+      margin-top: 7px; }
+    .delivery-block .delivery-small-block-2 .delivery-h6 {
+      font-size: 1rem;
+      margin-left: 10px; }
+    .delivery-block .delivery-small-block-2 .delivery-text {
+      padding-top: 5px;
+      width: 100%;
+      font-size: .75rem; }
+  .delivery-block .delivery-small-block-3 {
+    margin: 15px;
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 10px; }
+    .delivery-block .delivery-small-block-3 .delivery-img-1 {
+      width: 30px;
+      height: 30px;
+      margin-top: 7px; }
+    .delivery-block .delivery-small-block-3 .delivery-h6 {
+      font-size: 1rem;
+      margin-left: 10px;
+      margin-top: 3px; }
+    .delivery-block .delivery-small-block-3 .delivery-text {
+      padding-top: 5px;
+      width: 100%;
+      font-size: .75rem; }
+  .delivery-block .delivery-small-block-4 {
+    margin: 15px;
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 20px; }
+    .delivery-block .delivery-small-block-4 .delivery-img-1 {
+      width: 30px;
+      height: 30px;
+      margin-top: 7px; }
+    .delivery-block .delivery-small-block-4 .delivery-h6 {
+      font-size: 1rem;
+      margin-left: 10px;
+      margin-top: 3px; }
+    .delivery-block .delivery-small-block-4 .delivery-text {
+      padding-top: 5px;
+      width: 100%;
+      font-size: .75rem; }
+
+.payment-block {
+  background-color: #fff;
+  margin-top: 30px;
+  font-family: Corbert-Regular;
+  padding: 0 40px; }
+  .payment-block .payment-title {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px; }
+  .payment-block .payment-small-block-1 {
+    margin: 15px;
+    margin-left: 20px;
+    margin-right: 10px; }
+    .payment-block .payment-small-block-1 .payment-img-1 {
+      width: 30px;
+      height: 30px; }
+    .payment-block .payment-small-block-1 .payment-h6 {
+      font-size: 1rem;
+      margin-left: 10px;
+      margin-top: 7px; }
+    .payment-block .payment-small-block-1 .payment-text {
+      padding-top: 5px;
+      width: 100%;
+      font-size: .75rem; }
+  .payment-block .payment-small-block-2 {
+    margin: 15px;
+    margin-left: 10px;
+    margin-right: 20px; }
+    .payment-block .payment-small-block-2 .payment-img-1 {
+      width: 30px;
+      height: 30px; }
+    .payment-block .payment-small-block-2 .payment-h6 {
+      font-size: 1rem;
+      margin-left: 10px;
+      margin-top: 7px; }
+    .payment-block .payment-small-block-2 .payment-text {
+      padding-top: 5px;
+      width: 100%;
+      font-size: .75rem; }
+  .payment-block .payment-small-block-3 {
+    margin: 15px;
+    margin-top: 17px;
+    margin-left: 20px;
+    margin-right: 10px; }
+    .payment-block .payment-small-block-3 .payment-img-1 {
+      width: 30px;
+      height: 30px; }
+    .payment-block .payment-small-block-3 .payment-h6 {
+      font-size: 1rem;
+      margin-left: 10px;
+      margin-top: 0px; }
+    .payment-block .payment-small-block-3 .payment-text {
+      padding-top: 5px;
+      width: 100%;
+      font-size: .75rem; }
+  .payment-block .payment-small-block-4 {
+    margin: 15px;
+    margin-top: 17px;
+    margin-left: 10px;
+    margin-right: 20px; }
+    .payment-block .payment-small-block-4 .payment-img-1 {
+      width: 30px;
+      height: 30px; }
+    .payment-block .payment-small-block-4 .payment-h6 {
+      font-size: .9rem;
+      margin-left: 10px;
+      margin-top: 0px; }
+    .payment-block .payment-small-block-4 .payment-text {
+      padding-top: 9px;
+      width: 100%;
+      font-size: .75rem; }
